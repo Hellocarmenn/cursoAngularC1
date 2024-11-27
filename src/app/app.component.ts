@@ -1,5 +1,16 @@
 import { Component } from '@angular/core';
+<<<<<<< HEAD
 import { Empleado } from './models/empleado';
+=======
+
+class User{
+  constructor(public nombre:string,public apellido:string){}
+}
+
+const user1 = new User('Roger','Carrillo');
+const user2 = new User('Carmen','Martinez');
+
+>>>>>>> 2d695226e53df50d66146fc4756825870ac167f3
 
 @Component({
   selector: 'app-root',
@@ -7,6 +18,7 @@ import { Empleado } from './models/empleado';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+<<<<<<< HEAD
   title = 'componentesAngular';
 //Componente padre
   empleadosPresentes: Empleado[] = [
@@ -59,4 +71,24 @@ export class AppComponent {
     
     console.log('Recibimos el evento eliminarEmpleado en AppComponent')
   }
+=======
+  title = 'cursoAngular';
+
+  contador =0;
+
+  sumar(){
+    this.contador++;
+    alert(this.contador)
+  }
+
+  saludar(){
+    alert('Holaa!');
+  }
+
+  mostrarUsuario(id:string){
+    console.log(id);
+  }
+
+
+>>>>>>> 2d695226e53df50d66146fc4756825870ac167f3
 }

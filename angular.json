@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "componentesAngular": {
+=======
+    "cursoAngular": {
+>>>>>>> 2d695226e53df50d66146fc4756825870ac167f3
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +27,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/componentes-angular",
+=======
+            "outputPath": "dist/curso-angular",
+>>>>>>> 2d695226e53df50d66146fc4756825870ac167f3
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -37,18 +45,23 @@
             "styles": [
               "src/styles.css"
             ],
+<<<<<<< HEAD
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
               "entry": "server.ts"
             }
+=======
+            "scripts": []
+>>>>>>> 2d695226e53df50d66146fc4756825870ac167f3
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
+<<<<<<< HEAD
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 },
@@ -56,6 +69,15 @@
                   "type": "anyComponentStyle",
                   "maximumWarning": "6kb",
                   "maximumError": "10kb"
+=======
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+>>>>>>> 2d695226e53df50d66146fc4756825870ac167f3
                 }
               ],
               "outputHashing": "all"
@@ -72,10 +94,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "buildTarget": "componentesAngular:build:production"
             },
             "development": {
               "buildTarget": "componentesAngular:build:development"
+=======
+              "buildTarget": "cursoAngular:build:production"
+            },
+            "development": {
+              "buildTarget": "cursoAngular:build:development"
+>>>>>>> 2d695226e53df50d66146fc4756825870ac167f3
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +112,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "buildTarget": "componentesAngular:build"
+=======
+            "buildTarget": "cursoAngular:build"
+>>>>>>> 2d695226e53df50d66146fc4756825870ac167f3
           }
         },
         "test": {
@@ -108,6 +141,10 @@
     }
   },
   "cli": {
+<<<<<<< HEAD
     "analytics": "789bb04a-2681-4419-bbb9-b14f2fd65be0"
+=======
+    "analytics": "f2868b9f-2483-43a1-8b01-56f62938672b"
+>>>>>>> 2d695226e53df50d66146fc4756825870ac167f3
   }
 }

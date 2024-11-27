@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # ComponentesAngular
+=======
+# CursoAngular
+>>>>>>> 2d695226e53df50d66146fc4756825870ac167f3
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
